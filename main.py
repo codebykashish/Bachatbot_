@@ -12,6 +12,7 @@ load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
 
 # --- FIREBASE INITIALIZATION ---
+# --- FIREBASE INITIALIZATION ---
 # Use the file you downloaded from Firebase Project Settings
 try:
     cred = credentials.Certificate("service-account.json")
