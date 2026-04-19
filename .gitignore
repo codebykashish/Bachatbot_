@@ -3,6 +3,13 @@
 
 # Firebase Service Account Key
 service-account.json
-
-# If your service account has a different name, add it too
 *-service-account.json
+
+# Python Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.pyc
