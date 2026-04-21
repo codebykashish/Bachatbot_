@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 
+import Luniva_report
 # 1. Load your .env file
 load_dotenv()
 api_key = os.getenv("GEMINI_API_KEY")
@@ -88,3 +89,5 @@ async def parse_expense(user_input: str, user_id: str = "default_user"):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+    
+print("Bachatbot AI Backend is running...")
