@@ -1,8 +1,0 @@
-# Confidential API Keys
-.env
-
-# Firebase Service Account Key
-service-account.json
-
-# If your service account has a different name, add it too
-*-service-account.json
